@@ -1,0 +1,23 @@
+{
+    "name": "blackcivet/statamic-civet-browser-appearance",
+    "version": "3.7.0",
+    "autoload": {
+        "psr-4": {
+            "BlackCivet\\CivetBrowserAppearance\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Civet Browser Appearance",
+            "description": "Statamic Civet Browser Appearance addon"
+        },
+        "laravel": {
+            "providers": [
+                "BlackCivet\\CivetBrowserAppearance\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0"
+    }
+}
